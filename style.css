@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  
+}
+h1{
+      color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.maincontainer{
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
