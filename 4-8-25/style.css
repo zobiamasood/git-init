@@ -1,0 +1,51 @@
+.parent{
+    background-color:aqua;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+.child{
+    background-color: pink;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+
+}
+.child1{
+    background-color: blue;
+    width: 70px;
+    height: 70px;
+    top: 0px;
+    left: 0px;
+}
+.child2{
+    background-color:blueviolet;
+    width:70px;
+    height:70px ;
+    right: 0px;
+    top: 0px;
+}
+.child3{
+    background-color:pink;
+    width:70px;
+    height:70px ;
+    bottom: 0px;
+    left: 0px;
+
+}
+.child4{
+    background-color:purple;
+    width:70px;
+    height:70px ;
+    bottom: 0px;
+    right: 0px;
+}
+.child5{
+    background-color:red;
+    width:70px;
+    height:70px ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FLEXBOX</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    
+@media(min-width:796),(max-width:150px){
+    .recipe-card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+    @media(min-width:1200px){
+        .recipe-card{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Recipe Assignment Project</h1>
+    </header>
+
+    <main class="recipe-container">
+        
+        <!-- Recipe 1 -->
+        <div class="recipe-card">
+            <img src="https://bellyfull.net/wp-content/uploads/2023/02/Spaghetti-Carbonara-blog-2.jpg" alt="Spaghetti Carbonara">
+            <h2>Spaghetti Carbonara</h2>
+            <h3>A Classic Pasta Italian Dish</h3>
+            <h5>Ingredients:</h5>
+            <ul>
+                <li>Spaghetti</li>
+                <li>Eggs</li>
+                <li>Parmesan Cheese</li>
+                <li>Bacon</li>
+            </ul>
+        </div>
+
+        <!-- Recipe 2 -->
+        <div class="recipe-card">
+            <img src="https://149433378.v2.pressablecdn.com/wp-content/uploads/2020/08/Chicken-Tikka-Masala-scaled.jpg" alt="Chicken Tikka Masala">
+            <h2>Chicken Tikka Masala</h2>
+            <h3>A Popular Indian Curry Dish</h3>
+            <h5>Ingredients:</h5>
+            <ul>
+                <li>Chicken</li>
+                <li>Yogurt</li>
+                <li>Spices</li>
+                <li>Tomato Sauce</li>
+            </ul>
+        </div>
+
+        <!-- Recipe 3 -->
+        <div class="recipe-card">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.OwdxZAqIbEafgpEy0KkL4AHaE2?pid=Api&P=0&h=220" alt="Sushi Rolls">
+            <h2>Sushi Rolls</h2>
+            <h3>Japense Delicacy With Rice and Seafood </h3>
+            <h5>Ingredients:</h5>
+            <ul>
+                <li>Rice</li>
+                <li>Seaweed</li>
+                <li>Fish/Vegetables</li>
+                <li>Soy Sauce</li>
+            </ul>
+        </div>
+
+        <!-- Recipe 4 -->
+        <div class="recipe-card">
+            <img src="http://storageofrecipes.com/wp-content/uploads/2017/02/Vegetable-Lasagne_9061.jpg" alt="Vegetable Lasagna">
+            <h2>Vegetable Lasagna</h2>
+            <h3>Layered Pasta With Vegetables and Cheese</h3>
+            <h5>Ingredients:</h5>
+            <ul>
+                <li>Pasta Sheets</li>
+                <li>Tomato Sauce</li>
+                <li>Cheese</li>
+                <li>Vegetables</li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    background-color: #1a1a1a;
+}
+h1{
+    color: blueviolet;
+}
+p{
+    color:pink;
+}
+li{
+    color: pink;
+}
+.myclass{
+    color: lightblue;
+
+}
+form{
+    color: aqua;
+}
+.mypic{
+    background-color: white;
+}

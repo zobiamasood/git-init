@@ -1,0 +1,32 @@
+body{
+    background-color:#FFD372;
+}
+h1{
+    color:#e40c2b;
+    text-align: left;
+
+}
+#myid{
+    background-color: #F49CC4;
+    color: #F49CC4
+}
+h2{
+    color:#438945;
+    text-align: left;
+}
+h3{
+    color:#4c4cf0;
+    text-align:left;
+}
+
+li{
+    color:#e40c2b;
+}
+p{
+    color:#B9375D;
+    text-align: justify;
+}
+.myclass{
+    color: #eba63f;
+
+}
