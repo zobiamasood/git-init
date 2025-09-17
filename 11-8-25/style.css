@@ -1,28 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.navcontainer{
-    background-color:yellow;
+.navbar-section{
+    background-color: white;
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
-
-.leftnav img{
-    height: 200px;
-    width: 200px;
-}
-.leftnav{
-    display: flex;
-    justify-content: center;
-}
-ul{
-    flex-direction: row;
-    padding: 20px 20px;
-    list-style: none;
-
-}
-.rightnav{
-    justify-content: center;
+.navbar-section .nav-logo{
+    font-size: 200;
+    text-align: left;
 }
